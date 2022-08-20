@@ -1,0 +1,21 @@
+// Create File In S3 By Using Terminal
+
+*First Create Instance In Aws.
+*Connect Instance To Server 
+
+$sudo apt update
+$sudo apt insatll awscli
+
+//To check awscli in install or not
+  $aws help
+  
+//To list all buckets present in s3
+  $sudo aws s3 ls
+  
+*Create New File
+$nano xyz.txt 
+
+*Copy file to aws s3 bucket
+$aws s3 cp xyz.txt s3://<bucket_name>/
+
+***Check in S3 Bucket, File is copied to target bucket.
