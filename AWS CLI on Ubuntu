@@ -48,4 +48,4 @@ $ nano credentials
 Delete credentials
 $ rm -rf credentials
 
-Terminate the instance
+Terminate the instance.
